@@ -1,0 +1,25 @@
+.section {
+  padding: 60px 0;
+
+  @media screen and (min-width: 1200px) {
+    padding: 94px 0;
+    &__no-padding-bottom {
+      padding-bottom: 0;
+    }
+  }
+
+  &--bg-gray {
+    background-color: var(--secondary-bg);
+  }
+
+  &-title {
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.18;
+    // margin-bottom: 50px;
+    // font-size: 36px;
+    // line-height: 1.16;
+    text-align: center;
+  }
+}
