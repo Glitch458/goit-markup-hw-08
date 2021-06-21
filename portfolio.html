@@ -23,12 +23,17 @@
       <div class="container header__container">
         <nav class="site-nav">
           <a href="./index.html" class="logo"> <span class="logo--accent">Web</span>Studio</a>
+          <button class="site-nav__button" type="button">
+            <svg width="24px" height="16px">
+              <use href="./images/icons.svg#menu-open"></use>
+            </svg>
+          </button>
           <ul class="site-nav__list">
             <li class="site-nav__item">
-              <a href="./index.html" class="site-nav__link">Студия</a>
+              <a href="./index.html" class="site-nav__link current">Студия</a>
             </li>
             <li class="site-nav__item">
-              <a href="./portfolio.html" class="site-nav__link current">Портфолио</a>
+              <a href="./portfolio.html" class="site-nav__link">Портфолио</a>
             </li>
             <li class="site-nav__item">
               <a href="" class="site-nav__link">Контакты</a>
@@ -82,10 +87,39 @@
 
           <!-- Список работ -->
           <ul class="works">
-            <li class="works__list">
+            <li class="works__item">
               <a class="product" href="">
                 <div class="product__thumb">
-                  <img src="./images/img21.jpg" alt="ноутбук" width="370" height="294" />
+                  <picture>
+                    <source
+                      srcset="./images/desktop/work1.webp 1x, ./images/desktop/work1@2x.webp 2x"
+                      media="(min-width: 1200px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="./images/desktop/work1.jpg 1x, ./images/desktop/work1@2x.jpg 2x"
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="./images/tablet/work1.webp 1x, ./images/tablet/work1@2x.webp 2x"
+                      media="(min-width: 768px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="./images/tablet/work1.jpg 1x, ./images/tablet/work1@2x.jpg 2x"
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="./images/mobile/work1.webp 1x, ./images/mobile/work1@2x.webp 2x"
+                      media="(max-width: 767px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="./images/mobile/work1.jpg 1x, ./images/mobile/work1@2x.jpg 2x"
+                      media="(max-width: 767px)"
+                    />
+                    <img src="#" alt="ноутбук" />
+                  </picture>
                   <div class="product__overlay">
                     <p class="product__text">
                       Технокряк это современная площадка распространения коронавируса. Компании
@@ -101,10 +135,39 @@
               </a>
             </li>
 
-            <li class="works__list">
+            <li class="works__item">
               <a class="product" href="">
                 <div class="product__thumb">
-                  <img src="./images/img22.jpg" alt="баскетболисты" width="370" height="294" />
+                  <picture>
+                    <source
+                      srcset="./images/desktop/work2.webp 1x, ./images/desktop/work2@2x.webp 2x"
+                      media="(min-width: 1200px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="./images/desktop/work2.jpg 1x, ./images/desktop/work2@2x.jpg 2x"
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="./images/tablet/work2.webp 1x, ./images/tablet/work2@2x.webp 2x"
+                      media="(min-width: 768px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="./images/tablet/work2.jpg 1x, ./images/tablet/work2@2x.jpg 2x"
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="./images/mobile/work2.webp 1x, ./images/mobile/work2@2x.webp 2x"
+                      media="(max-width: 767px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="./images/mobile/work2.jpg 1x, ./images/mobile/work2@2x.jpg 2x"
+                      media="(max-width: 767px)"
+                    />
+                    <img src="#" alt="баскетболисты" />
+                  </picture>
                   <div class="product__overlay">
                     <p class="product__text">
                       Технокряк это современная площадка распространения коронавируса. Компании
@@ -122,15 +185,39 @@
               </a>
             </li>
 
-            <li class="works__list">
+            <li class="works__item">
               <a class="product" href="">
                 <div class="product__thumb">
-                  <img
-                    src="./images/img23.jpg"
-                    alt="надпись ресторан морской еды на фоне рыбы"
-                    width="370"
-                    height="294"
-                  />
+                  <picture>
+                    <source
+                      srcset="./images/desktop/work3.webp 1x, ./images/desktop/work3@2x.webp 2x"
+                      media="(min-width: 1200px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="./images/desktop/work3.jpg 1x, ./images/desktop/work3@2x.jpg 2x"
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="./images/tablet/work3.webp 1x, ./images/tablet/work3@2x.webp 2x"
+                      media="(min-width: 768px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="./images/tablet/work3.jpg 1x, ./images/tablet/work3@2x.jpg 2x"
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="./images/mobile/work3.webp 1x, ./images/mobile/work3@2x.webp 2x"
+                      media="(max-width: 767px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="./images/mobile/work3.jpg 1x, ./images/mobile/work3@2x.jpg 2x"
+                      media="(max-width: 767px)"
+                    />
+                    <img src="#" alt="надпись ресторан морской еды на фоне рыбы" />
+                  </picture>
                   <div class="product__overlay">
                     <p class="product__text">
                       Технокряк это современная площадка распространения коронавируса. Компании
@@ -146,10 +233,39 @@
               </a>
             </li>
 
-            <li class="works__list">
+            <li class="works__item">
               <a class="product" href="">
                 <div class="product__thumb">
-                  <img src="./images/img24.jpg" alt="наушники" width="370" height="294" />
+                  <picture>
+                    <source
+                      srcset="./images/desktop/work4.webp 1x, ./images/desktop/work4@2x.webp 2x"
+                      media="(min-width: 1200px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="./images/desktop/work4.jpg 1x, ./images/desktop/work4@2x.jpg 2x"
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="./images/tablet/work4.webp 1x, ./images/tablet/work4@2x.webp 2x"
+                      media="(min-width: 768px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="./images/tablet/work4.jpg 1x, ./images/tablet/work4@2x.jpg 2x"
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="./images/mobile/work4.webp 1x, ./images/mobile/work4@2x.webp 2x"
+                      media="(max-width: 767px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="./images/mobile/work4.jpg 1x, ./images/mobile/work4@2x.jpg 2x"
+                      media="(max-width: 767px)"
+                    />
+                    <img src="#" alt="наушники" />
+                  </picture>
                   <div class="product__overlay">
                     <p class="product__text">
                       Технокряк это современная площадка распространения коронавируса. Компании
@@ -165,15 +281,39 @@
               </a>
             </li>
 
-            <li class="works__list">
+            <li class="works__item">
               <a class="product" href="">
                 <div class="product__thumb">
-                  <img
-                    src="./images/img25.jpg"
-                    alt="две коробки с надписями"
-                    width="370"
-                    height="294"
-                  />
+                  <picture>
+                    <source
+                      srcset="./images/desktop/work5.webp 1x, ./images/desktop/work5@2x.webp 2x"
+                      media="(min-width: 1200px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="./images/desktop/work5.jpg 1x, ./images/desktop/work5@2x.jpg 2x"
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="./images/tablet/work5.webp 1x, ./images/tablet/work5@2x.webp 2x"
+                      media="(min-width: 768px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="./images/tablet/work5.jpg 1x, ./images/tablet/work5@2x.jpg 2x"
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="./images/mobile/work5.webp 1x, ./images/mobile/work5@2x.webp 2x"
+                      media="(max-width: 767px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="./images/mobile/work5.jpg 1x, ./images/mobile/work5@2x.jpg 2x"
+                      media="(max-width: 767px)"
+                    />
+                    <img src="#" alt="две коробки с надписями" />
+                  </picture>
                   <div class="product__overlay">
                     <p class="product__text">
                       Технокряк это современная площадка распространения коронавируса. Компании
@@ -189,10 +329,39 @@
               </a>
             </li>
 
-            <li class="works__list">
+            <li class="works__item">
               <a class="product" href="">
                 <div class="product__thumb">
-                  <img src="./images/img26.jpg" alt="монитор" width="370" height="294" />
+                  <picture>
+                    <source
+                      srcset="./images/desktop/work6.webp 1x, ./images/desktop/work6@2x.webp 2x"
+                      media="(min-width: 1200px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="./images/desktop/work6.jpg 1x, ./images/desktop/work6@2x.jpg 2x"
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="./images/tablet/work6.webp 1x, ./images/tablet/work6@2x.webp 2x"
+                      media="(min-width: 768px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="./images/tablet/work6.jpg 1x, ./images/tablet/work6@2x.jpg 2x"
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="./images/mobile/work6.webp 1x, ./images/mobile/work6@2x.webp 2x"
+                      media="(max-width: 767px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="./images/mobile/work6.jpg 1x, ./images/mobile/work6@2x.jpg 2x"
+                      media="(max-width: 767px)"
+                    />
+                    <img src="#" alt="ноутбук" />
+                  </picture>
                   <div class="product__overlay">
                     <p class="product__text">
                       Технокряк это современная площадка распространения коронавируса. Компании
@@ -208,10 +377,39 @@
               </a>
             </li>
 
-            <li class="works__list">
+            <li class="works__item">
               <a class="product" href="">
                 <div class="product__thumb">
-                  <img src="./images/img27.jpg" alt="раскрытая книга" width="370" height="294" />
+                  <picture>
+                    <source
+                      srcset="./images/desktop/work7.webp 1x, ./images/desktop/work7@2x.webp 2x"
+                      media="(min-width: 1200px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="./images/desktop/work7.jpg 1x, ./images/desktop/work7@2x.jpg 2x"
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="./images/tablet/work7.webp 1x, ./images/tablet/work7@2x.webp 2x"
+                      media="(min-width: 768px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="./images/tablet/work7.jpg 1x, ./images/tablet/work7@2x.jpg 2x"
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="./images/mobile/work7.webp 1x, ./images/mobile/work7@2x.webp 2x"
+                      media="(max-width: 767px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="./images/mobile/work7.jpg 1x, ./images/mobile/work7@2x.jpg 2x"
+                      media="(max-width: 767px)"
+                    />
+                    <img src="#" alt="раскрытая книга" />
+                  </picture>
                   <div class="product__overlay">
                     <p class="product__text">
                       Технокряк это современная площадка распространения коронавируса. Компании
@@ -227,10 +425,39 @@
               </a>
             </li>
 
-            <li class="works__list">
+            <li class="works__item">
               <a class="product" href="">
                 <div class="product__thumb">
-                  <img src="./images/img28.jpg" alt="бирка для одежды" width="370" height="294" />
+                  <picture>
+                    <source
+                      srcset="./images/desktop/work8.webp 1x, ./images/desktop/work8@2x.webp 2x"
+                      media="(min-width: 1200px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="./images/desktop/work8.jpg 1x, ./images/desktop/work8@2x.jpg 2x"
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="./images/tablet/work8.webp 1x, ./images/tablet/work8@2x.webp 2x"
+                      media="(min-width: 768px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="./images/tablet/work8.jpg 1x, ./images/tablet/work8@2x.jpg 2x"
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="./images/mobile/work8.webp 1x, ./images/mobile/work8@2x.webp 2x"
+                      media="(max-width: 767px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="./images/mobile/work8.jpg 1x, ./images/mobile/work8@2x.jpg 2x"
+                      media="(max-width: 767px)"
+                    />
+                    <img src="#" alt="бирка для одежды" />
+                  </picture>
                   <div class="product__overlay">
                     <p class="product__text">
                       Технокряк это современная площадка распространения коронавируса. Компании
@@ -246,15 +473,39 @@
               </a>
             </li>
 
-            <li class="works__list">
+            <li class="works__item">
               <a class="product" href="">
                 <div class="product__thumb">
-                  <img
-                    src="./images/img29.jpg"
-                    alt="человек работающий за ноутбуком"
-                    width="370"
-                    height="294"
-                  />
+                  <picture>
+                    <source
+                      srcset="./images/desktop/work9.webp 1x, ./images/desktop/work9@2x.webp 2x"
+                      media="(min-width: 1200px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="./images/desktop/work9.jpg 1x, ./images/desktop/work9@2x.jpg 2x"
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="./images/tablet/work9.webp 1x, ./images/tablet/work9@2x.webp 2x"
+                      media="(min-width: 768px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="./images/tablet/work9.jpg 1x, ./images/tablet/work9@2x.jpg 2x"
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="./images/mobile/work9.webp 1x, ./images/mobile/work9@2x.webp 2x"
+                      media="(max-width: 767px)"
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="./images/mobile/work9.jpg 1x, ./images/mobile/work9@2x.jpg 2x"
+                      media="(max-width: 767px)"
+                    />
+                    <img src="#" alt="человпк работающий за ноутбуком" />
+                  </picture>
                   <div class="product__overlay">
                     <p class="product__text">
                       Технокряк это современная площадка распространения коронавируса. Компании
