@@ -64,8 +64,8 @@
 }
 
 .form__policy {
-  display: flex;
-  align-items: center;
+  display: inline-block;
+  vertical-align: middle;
   line-height: 1.72;
   color: var(--sec-text-color);
   align-self: center;
@@ -76,6 +76,7 @@
 .form__checkbox {
   position: relative;
   display: inline-flex;
+  vertical-align: text-top;
 
   &--inactive,
   &--active {
